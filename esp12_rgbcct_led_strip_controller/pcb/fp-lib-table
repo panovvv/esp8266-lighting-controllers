@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Connector_KEFA_Homemade)(type KiCad)(uri /home/vadim/mega/kicad/homemade-kicad-libraries/footprints/Connector_KEFA_Homemade.pretty)(options "")(descr ""))
+)
