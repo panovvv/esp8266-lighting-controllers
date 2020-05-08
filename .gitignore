@@ -44,3 +44,6 @@ ehthumbs_vista.db
 # Zipped up Gerber files
 *.zip
 
+# FreeCAD backup files
+*.FCStd?
+
