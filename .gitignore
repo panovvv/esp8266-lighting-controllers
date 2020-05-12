@@ -21,9 +21,9 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
+# Exported BOM files and netlist XML
 *.xml
-*.csv
+#*.csv
 
 
 
