@@ -33,7 +33,7 @@
             "PCBLength": "77",
             "PCBThick": "1.6",
             "PCBWidth": "52",
-            "PanelFeatures": "0",
+            "PanelFeatures": "1",
             "PanelThick": "2",
             "PartMargin": "0.1",
             "RightEdgeMargin": "5",
@@ -45,7 +45,7 @@
             "TabThick": "2",
             "TextColor": "White",
             "Thick": "2",
-            "TopMargin": "20",
+            "TopMargin": "30",
             "Vent": "1",
             "Vent_width": "1.5"
         }
