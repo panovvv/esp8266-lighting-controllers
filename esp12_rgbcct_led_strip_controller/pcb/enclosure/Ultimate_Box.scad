@@ -223,7 +223,7 @@ PanelRightEdge = PanelWidth - Thick + PanelHorizontalGap;
 // Holes for front panel
 module FPanelHoles() {
     // SquareHole(On/Off, Xpos,Ypos,Length,Width,Filet)
-    SquareHole(1, (PanelRightEdge-PanelLeftEdge)/2-12.5, 20, 25, 5, 1);
+    SquareHole(1, (PanelRightEdge-PanelLeftEdge)/2-11.5, 25, 25, 5, 1);
     // SquareHole(1, 40, 20, 15, 10, 1);
     // SquareHole(1, 60, 20, 15, 10, 1);
     // CylinderHole(On/Off, Xpos, Ypos, Diameter)
@@ -239,7 +239,7 @@ module FPanelHoles() {
 // Text for front panel
 module FPanelText() {
     // LText(On/Off, Xpos, Ypos, "Font", Size, "Text", "HAlign", "VAlign")
-    LText(1, (PanelRightEdge-PanelLeftEdge)/2-12.5, 13, "Arial Black", 4, "LED Strip", HAlign="left");
+    //LText(1, (PanelRightEdge-PanelLeftEdge)/2-12.5, 13, "Arial Black", 4, "LED Strip", HAlign="left");
     // LText(1, 120, 83, "Arial Black", 4, "Level", HAlign="left");
     // LText(1, 20, 11, "Arial Black", 6, "  1     2      3", HAlign="left");
     // CText(On/Off, Xpos, Ypos, "Font", Size, Diameter, Arc(Deg), Starting Angle(Deg),"Text")
@@ -251,9 +251,9 @@ module FPanelText() {
 // Holes for back panel
 module BPanelHoles() {
     CylinderHole(1,
-                 LeftEdgeOfBoardWRTBPanel+((PanelRightEdge-PanelLeftEdge)/2),
-                 TopOfBoardWRTPanel + 7,
-                 10.5);
+                 LeftEdgeOfBoardWRTBPanel+((PanelRightEdge-PanelLeftEdge)/2-3.5),
+                 TopOfBoardWRTPanel + 12,
+                 11.5);
     // SquareHole(1,
     //            LeftEdgeOfBoardWRTBPanel + 37.3,
     //            TopOfBoardWRTPanel,
@@ -265,12 +265,12 @@ module BPanelHoles() {
 
 // Text for back panel
 module BPanelText() {
-    LText(1,
-          LeftEdgeOfBoardWRTBPanel+((PanelRightEdge-PanelLeftEdge)/2)-15,
-          TopOfBoardWRTPanel+5,
-          "Arial Black",
-          4, "12V"
-    );
+    //LText(1,
+        //  LeftEdgeOfBoardWRTBPanel+((PanelRightEdge-PanelLeftEdge)/2)-15,
+        //  TopOfBoardWRTPanel+5,
+       //   "Arial Black",
+      //    4, "12V"
+    //);
     // LText(1,
     //       LeftEdgeOfBoardWRTBPanel + 37.3 + 39.2/2,
     //       TopOfBoardWRTPanel + 12.55 + 2,
