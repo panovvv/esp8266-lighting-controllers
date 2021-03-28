@@ -47,3 +47,5 @@ ehthumbs_vista.db
 # FreeCAD backup files
 *.FCStd?
 
+# Also ignore IntelliJ
+.idea/
