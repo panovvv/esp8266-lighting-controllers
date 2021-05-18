@@ -1,3 +1,5 @@
+![render.png](https://github.com/panovvv/esp8266-lighting-controllers/raw/master/esp12_rgbcct_led_strip_controller/pcb/renders/03_no_raytrace_left.png)
+
 # Files and folders:
 
 * `esp-12_led_strip_controller.***, fp-lib-table` - KiCAD schematics and PCB files.
